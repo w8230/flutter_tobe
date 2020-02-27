@@ -1,0 +1,52 @@
+name: devtobe
+description: (주) 투비시스템 개발용 App
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  intl: ^0.15.7
+  http: ^0.12.0
+  cupertino_icons: ^0.1.2
+  rflutter_alert: ^1.0.3
+  image_picker: ^0.6.3+1
+  image_gallery_saver: ^1.1.0
+  permission_handler: ^3.2.0
+  share: ^0.6.2
+  toast: ^0.1.5
+  font_awesome_flutter: ^8.5.0
+  event_bus: ^1.1.0
+  flutter_colorpicker: ^0.2.5
+  path_provider: ^1.2.0
+  zoom_widget: ^0.1.3
+  photo_view: ^0.9.1
+  supernova_flutter_ui_toolkit: ^0.0.2
+  easy_dialogs: ^1.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  fonts:
+    - family: NanumGothic
+      fonts:
+        - asset: fonts/NanumGothic-Regular.ttf
+    - family: NanumGothic Bold
+      fonts:
+        - asset: fonts/NanumGothic-Bold.ttf
+          weight: 700
+  uses-material-design: true
+
+  assets:
+    - assets/
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/icons.png"
