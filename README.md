@@ -1,6 +1,6 @@
 # devtobe
 
-(주) 투비시스템 개발용 App
+(주) 투비소프트 개발용 App
 
 ## Getting Started
 
